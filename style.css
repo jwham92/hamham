@@ -9,6 +9,7 @@ a {
   }
 #grid{
   border:5px solid pink none;
+  border-bottom: 1px solid grey;
   display:grid;
   grid-template-columns: 120px 1fr;
 }
@@ -16,21 +17,25 @@ a {
   border-left:1px solid grey;
   padding-left:45px;
   }
-  h1{
-      border-bottom:1px solid grey;
-    }
+}
+@media(max-width:600px){
+  div{
+    padding-bottom:10px;
+    border-bottom: 1px solid grey;
+  }
 }
 div {
   text-align: left;
-  /*border-right:1px solid grey none;*/
+  /*border-bottom:1px solid grey;*/
   padding-left:10px;
   padding-right:25px;
+  padding-bottom:30px;
   margin-top:10px;
 }
 h1{
   font-size: 30px;
   text-align: center;
-  /*border-bottom:1px solid grey;*/
+  border-bottom:1px solid grey;
   padding:10px;
   margin:0px;
 }
